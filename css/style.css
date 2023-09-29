@@ -42,12 +42,10 @@ header{
     color: #25202f;
 }
 .nav_burger-menu{
+    display: none;
     widows: 50px;
     height: 50px;
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     /* box-shadow: 3px 5px 5px rgba(0,0,0.5); */
 }
 .bx-menu{
@@ -354,12 +352,15 @@ header{
     .container{
         max-width: 430px;
         margin: 0 auto;
-        padding: 5px 10px;
+        padding: 5px 15px;
     }
     
     header{
       margin-bottom: 50px;
 
+    }
+    .small_title{
+        font-size: 24px;
     }
      .navbar{
         display: flex;
@@ -376,7 +377,7 @@ header{
     }
 
     .bx-x{
-        font-size: 24px;
+        font-size: 30px;
         display: none;
     }
     .nav_item{
@@ -394,7 +395,7 @@ header{
         /* box-shadow: 3px 5px 5px rgba(0,0,0.5); */
     }
     .bx-menu{
-        font-size: 23px;
+        font-size: 36px;
         cursor: pointer;
         transition: .3s;
     }
@@ -447,12 +448,12 @@ header{
     }
     
     .introduction_img{
-        width: 400px;
+        width: 380px;
         height: 200px;
         position: static;
     }
     .introduction_img img{
-        width: 400px;
+        width: 380px;
        position: static;
     }
     
@@ -469,14 +470,18 @@ header{
         grid-template-columns: 1fr;
     }
     .services_info{
-        margin-bottom: 12px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
     }
-
+    .job{
+        justify-content: center;
+    }
 
     /* portfolio section */
 
     #portfolioSection {
-        height: 1000px;
+        height: 940px;
     }
     .project_info{
         display: grid;
@@ -485,9 +490,16 @@ header{
     }
     .project_desc {
         width: 100%;
+        text-align: center;
     }
     .project_info img{
-        width: 396px;
+        width: 385px;
+    }
+    .more_info{
+        display: none;
+    }
+    .big_title {
+        font-size: 42px;
     }
 
 /* client section start */
@@ -509,7 +521,7 @@ header{
 
     #blog {
         margin-top: 80px;
-        height: 1260px;
+        height: 1230px;
     }
     .blog_info {
         display: grid;
